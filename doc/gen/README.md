@@ -37,11 +37,11 @@ Via: 0.81/0.4 mm (32/16 mils)
 - Micro via: no [0.2/0.1 mm (8/4 mils)]
 - Burried/blind via: no
 
-Outer Annular Ring: 0.11 mm (4 mils)
+Outer Annular Ring: 0.3 mm (12 mils)
 
-- By design rules: 0.11 mm (4 mils)
+- By design rules: 0.3 mm (12 mils)
 
-Eurocircuits class: 8C
+Eurocircuits class: 6C
 
 
 # General stats
@@ -49,7 +49,7 @@ Eurocircuits class: 8C
 Components count: (SMD/THT)
 
 - Top: 0/11 (THT)
-- Bottom: 0/16 (THT)
+- Bottom: 14/2 (SMD + THT)
 
 Defined tracks:
 
@@ -57,7 +57,7 @@ Defined tracks:
 Used tracks:
 
 - 0.3 mm (12 mils) (65) defined: no
-- 0.81 mm (32 mils) (13) defined: no
+- 0.81 mm (32 mils) (12) defined: no
 
 Defined vias:
 
@@ -71,7 +71,7 @@ Holes (excluding vias):
 
 - 0.3 mm (12 mils) (5)
 - 0.89 mm (35 mils) (29)
-- 3.2 mm (126 mils) (4)
+- 3.0 mm (118 mils) (4)
 
 
 

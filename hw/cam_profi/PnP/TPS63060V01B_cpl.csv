@@ -1,1 +1,15 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C1","100nF","C_0805_2012Metric",145.0086,-104.0511,-90.0000,bottom
+"C2","10uF","C_0805_2012Metric",156.7561,-94.2086,180.0000,bottom
+"C3","47uF","TantalC_SizeC_Reflow",144.3736,-91.6686,90.0000,bottom
+"C5","10p","C_0805_2012Metric",146.5961,-101.1936,90.0000,bottom
+"C6","47uF","TantalC_SizeC_Reflow",158.9786,-97.0661,0.0000,bottom
+"C16","10uF","C_0805_2012Metric",148.8186,-111.6711,180.0000,bottom
+"C20","47uF","TantalC_SizeC_Reflow",139.9286,-108.8136,90.0000,bottom
+"D1","M4","D_SMA",144.0561,-119.9261,-90.0000,bottom
+"P1","1,1A","1812",142.2400,-114.8080,180.0000,bottom
+"R2","100k","R_0805_2012Metric",143.7386,-98.9711,180.0000,bottom
+"R3","1M","R_0805_2012Metric",143.1036,-104.0511,90.0000,bottom
+"R4","560k","R_0805_2012Metric",142.7861,-100.8761,0.0000,bottom
+"R5","900k","R_0805_2012Metric",142.7861,-97.0661,0.0000,bottom
+"X5","TPS63060","Texas_S-PWSON-N10_ThermalVias",147.8661,-106.9086,90.0000,bottom

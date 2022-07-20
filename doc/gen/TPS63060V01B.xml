@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TPS63060V01B.kicad_sch</source>
-    <date>Wed Jul 20 12:46:52 2022</date>
+    <date>Wed Jul 20 15:12:16 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,8 +26,8 @@
   <components>
     <comp ref="C1">
       <value>100nF</value>
-      <footprint>untitled:C0805</footprint>
-      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -35,17 +35,17 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>untitled:C0805</footprint>
-      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>83021f70-e61e-4ad3-bae7-b9f02b28be4f</tstamps>
     </comp>
     <comp ref="C3">
-      <value>47u</value>
-      <footprint>untitled:C</footprint>
-      <libsource lib="untitled-eagle-import" part="C" description=""/>
+      <value>47uF</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -53,17 +53,17 @@
     </comp>
     <comp ref="C5">
       <value>10p</value>
-      <footprint>untitled:C0805</footprint>
-      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>626679e8-6101-4722-ac57-5b8d9dab4c8b</tstamps>
     </comp>
     <comp ref="C6">
-      <value>47u</value>
-      <footprint>untitled:C</footprint>
-      <libsource lib="untitled-eagle-import" part="C" description=""/>
+      <value>47uF</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -71,8 +71,8 @@
     </comp>
     <comp ref="C16">
       <value>10uF</value>
-      <footprint>untitled:C0805</footprint>
-      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -80,8 +80,8 @@
     </comp>
     <comp ref="C20">
       <value>47uF</value>
-      <footprint>untitled:C</footprint>
-      <libsource lib="untitled-eagle-import" part="C" description=""/>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -89,8 +89,8 @@
     </comp>
     <comp ref="D1">
       <value>M4</value>
-      <footprint>untitled:SMA</footprint>
-      <libsource lib="untitled-eagle-import" part="D-OB.SMA" description=""/>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -98,8 +98,8 @@
     </comp>
     <comp ref="L1">
       <value>DE1207-1</value>
-      <footprint>untitled:DE1205-10</footprint>
-      <libsource lib="untitled-eagle-import" part="DE1205-10" description=""/>
+      <footprint>Mlab_L:DE1205-10</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -107,7 +107,7 @@
     </comp>
     <comp ref="P1">
       <value>1,1A</value>
-      <footprint>untitled:1812</footprint>
+      <footprint>Mlab_F:1812</footprint>
       <libsource lib="untitled-eagle-import" part="POJISTKA_1812" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
@@ -116,8 +116,8 @@
     </comp>
     <comp ref="R2">
       <value>100k</value>
-      <footprint>untitled:0805</footprint>
-      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,8 +125,8 @@
     </comp>
     <comp ref="R3">
       <value>1M</value>
-      <footprint>untitled:0805</footprint>
-      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -134,8 +134,8 @@
     </comp>
     <comp ref="R4">
       <value>560k</value>
-      <footprint>untitled:0805</footprint>
-      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -143,8 +143,8 @@
     </comp>
     <comp ref="R5">
       <value>900k</value>
-      <footprint>untitled:0805</footprint>
-      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -184,7 +184,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c07eebcc-30d2-439d-8030-faea6ade4486 2518d4ea-25cc-4e57-a0d6-8482034e7318 8f12311d-6f4c-4d28-a5bc-d6cb462bade7 1c052668-6749-425a-9a77-35f046c8aa39</tstamps>
+      <tstamps>c07eebcc-30d2-439d-8030-faea6ade4486 8f12311d-6f4c-4d28-a5bc-d6cb462bade7 2518d4ea-25cc-4e57-a0d6-8482034e7318 1c052668-6749-425a-9a77-35f046c8aa39</tstamps>
     </comp>
     <comp ref="SV5">
       <value>MA03-2</value>
@@ -193,7 +193,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>88d2c4b8-79f2-4e8b-9f70-b7e0ed9c70f8 4107d40a-e5df-4255-aacc-13f9928e090c 26801cfb-b53b-4a6a-a2f4-5f4986565765</tstamps>
+      <tstamps>4107d40a-e5df-4255-aacc-13f9928e090c 88d2c4b8-79f2-4e8b-9f70-b7e0ed9c70f8 26801cfb-b53b-4a6a-a2f4-5f4986565765</tstamps>
     </comp>
     <comp ref="SV6">
       <value>MA02-1</value>
@@ -215,8 +215,8 @@
     </comp>
     <comp ref="X1">
       <value>SROUB3M</value>
-      <footprint>untitled:SROUB3M</footprint>
-      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -224,8 +224,8 @@
     </comp>
     <comp ref="X2">
       <value>SROUB3M</value>
-      <footprint>untitled:SROUB3M</footprint>
-      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,8 +233,8 @@
     </comp>
     <comp ref="X3">
       <value>SROUB3M</value>
-      <footprint>untitled:SROUB3M</footprint>
-      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -242,8 +242,8 @@
     </comp>
     <comp ref="X4">
       <value>SROUB3M</value>
-      <footprint>untitled:SROUB3M</footprint>
-      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -251,8 +251,9 @@
     </comp>
     <comp ref="X5">
       <value>TPS63060</value>
-      <footprint>untitled:SON10</footprint>
-      <libsource lib="untitled-eagle-import" part="TPS63060" description=""/>
+      <footprint>Package_SON:Texas_S-PWSON-N10_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63060.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS63060" description="Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TPS63060V01B.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -269,6 +270,127 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_MECHANICAL" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63060">
+      <description>Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63060.pdf</docs>
+      <footprints>
+        <fp>Texas*S*PWSON*N10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63060</field>
+        <field name="Footprint">Package_SON:Texas_S-PWSON-N10_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps63060.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="L1" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="PS/SYNC" type="input"/>
+        <pin num="5" name="PG" type="output"/>
+        <pin num="6" name="VAUX" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="FB" type="input"/>
+        <pin num="9" name="VOUT" type="power_out"/>
+        <pin num="10" name="L2" type="input"/>
+        <pin num="11" name="PGND" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="untitled-eagle-import" part="APX809-26SA">
       <fields>
         <field name="Reference">X</field>
@@ -279,50 +401,6 @@
         <pin num="1" name="GND" type="passive"/>
         <pin num="2" name="/RESET" type="passive"/>
         <pin num="3" name="VCC" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="untitled-eagle-import" part="C">
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-        <field name="Footprint">untitled:C</field>
-      </fields>
-      <pins>
-        <pin num="+" name="C_EL+" type="passive"/>
-        <pin num="-" name="C_EL-" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="untitled-eagle-import" part="C0805">
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C0805</field>
-        <field name="Footprint">untitled:C0805</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="untitled-eagle-import" part="D-OB.SMA">
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D-OB.SMA</field>
-        <field name="Footprint">untitled:SMA</field>
-      </fields>
-      <pins>
-        <pin num="A" name="A" type="passive"/>
-        <pin num="K" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="untitled-eagle-import" part="DE1205-10">
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">DE1205-10</field>
-        <field name="Footprint">untitled:DE1205-10</field>
-      </fields>
-      <pins>
-        <pin num="P$1" name="1" type="passive"/>
-        <pin num="P$2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="untitled-eagle-import" part="MA02-1">
@@ -387,78 +465,29 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="untitled-eagle-import" part="R0805">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R0805</field>
-        <field name="Footprint">untitled:0805</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="untitled-eagle-import" part="SROUB3M">
-      <fields>
-        <field name="Reference">X</field>
-        <field name="Value">SROUB3M</field>
-        <field name="Footprint">untitled:SROUB3M</field>
-      </fields>
-      <pins>
-        <pin num="P$1" name="P$1" type="bidirectional"/>
-      </pins>
-    </libpart>
-    <libpart lib="untitled-eagle-import" part="TPS63060">
-      <fields>
-        <field name="Reference">X</field>
-        <field name="Value">TPS63060</field>
-        <field name="Footprint">untitled:SON10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="L1" type="passive"/>
-        <pin num="2" name="VIN" type="input"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="PS/SYNC" type="input"/>
-        <pin num="5" name="PG" type="input"/>
-        <pin num="6" name="VAUX" type="input"/>
-        <pin num="7" name="GND" type="passive"/>
-        <pin num="8" name="FB" type="input"/>
-        <pin num="9" name="VOUT" type="output"/>
-        <pin num="10" name="L2" type="passive"/>
-        <pin num="11" name="GND" type="passive"/>
-        <pin num="12" name="GND" type="passive"/>
-        <pin num="13" name="GND" type="passive"/>
-        <pin num="14" name="GND" type="passive"/>
-        <pin num="15" name="GND" type="passive"/>
-        <pin num="16" name="GND" type="passive"/>
-        <pin num="17" name="GND" type="passive"/>
-        <pin num="18" name="GND" type="passive"/>
-        <pin num="19" name="GND" type="passive"/>
-        <pin num="21" name="GND" type="passive"/>
-        <pin num="P$1" name="GND" type="passive"/>
-        <pin num="P$2" name="GND" type="passive"/>
-        <pin num="P$3" name="GND" type="passive"/>
-        <pin num="P$4" name="GND" type="passive"/>
-        <pin num="P$5" name="GND" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
     <library logical="untitled-eagle-import">
       <uri>/github/workspace/hw/sch_pcb/untitled-eagle-import.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="C20" pin="-" pinfunction="C_EL-" pintype="passive"/>
-      <node ref="C3" pin="-" pinfunction="C_EL-" pintype="passive"/>
-      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C6" pin="-" pinfunction="C_EL-" pintype="passive"/>
-      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
-      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
       <node ref="SV2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="SV2" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="SV2" pin="5" pinfunction="K" pintype="passive"/>
@@ -472,68 +501,54 @@
       <node ref="SV5" pin="5" pinfunction="K" pintype="passive"/>
       <node ref="SV5" pin="6" pinfunction="K" pintype="passive"/>
       <node ref="SV6" pin="2" pinfunction="P$1" pintype="passive"/>
-      <node ref="X1" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
-      <node ref="X2" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
-      <node ref="X3" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
-      <node ref="X4" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
-      <node ref="X5" pin="11" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="12" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="13" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="14" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="15" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="16" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="17" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="18" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="19" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="21" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="7" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="P$1" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="P$2" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="P$3" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="P$4" pinfunction="GND" pintype="passive"/>
-      <node ref="X5" pin="P$5" pinfunction="GND" pintype="passive"/>
+      <node ref="X1" pin="1" pintype="input"/>
+      <node ref="X2" pin="1" pintype="input"/>
+      <node ref="X3" pin="1" pintype="input"/>
+      <node ref="X4" pin="1" pintype="input"/>
+      <node ref="X5" pin="11" pinfunction="PGND" pintype="power_in"/>
+      <node ref="X5" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="X9" pin="1" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="2" name="Net-(C1-Pad2)">
-      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="X5" pin="6" pinfunction="VAUX" pintype="input"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="X5" pin="6" pinfunction="VAUX" pintype="passive"/>
     </net>
     <net code="3" name="Net-(C2-Pad2)">
-      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C3" pin="+" pinfunction="C_EL+" pintype="passive"/>
-      <node ref="C6" pin="+" pinfunction="C_EL+" pintype="passive"/>
-      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="SV2" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="SV2" pin="4" pinfunction="K" pintype="passive"/>
       <node ref="SV5" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="SV5" pin="4" pinfunction="K" pintype="passive"/>
-      <node ref="X5" pin="9" pinfunction="VOUT" pintype="output"/>
+      <node ref="X5" pin="9" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="4" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="SV4" pin="1" pinfunction="P$1" pintype="passive"/>
       <node ref="SV4" pin="3" pinfunction="P$1" pintype="passive"/>
       <node ref="X5" pin="8" pinfunction="FB" pintype="input"/>
     </net>
     <net code="5" name="Net-(C16-Pad2)">
-      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="C20" pin="+" pinfunction="C_EL+" pintype="passive"/>
-      <node ref="D1" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="P1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SV1" pin="3" pinfunction="P$1" pintype="passive"/>
-      <node ref="X5" pin="2" pinfunction="VIN" pintype="input"/>
+      <node ref="X5" pin="2" pinfunction="VIN" pintype="power_in"/>
       <node ref="X9" pin="3" pinfunction="VCC" pintype="input"/>
     </net>
-    <net code="6" name="Net-(L1-PadP$1)">
-      <node ref="L1" pin="P$1" pinfunction="1" pintype="passive"/>
-      <node ref="X5" pin="1" pinfunction="L1" pintype="passive"/>
+    <net code="6" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="X5" pin="1" pinfunction="L1" pintype="input"/>
     </net>
-    <net code="7" name="Net-(L1-PadP$2)">
-      <node ref="L1" pin="P$2" pinfunction="2" pintype="passive"/>
-      <node ref="X5" pin="10" pinfunction="L2" pintype="passive"/>
+    <net code="7" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="X5" pin="10" pinfunction="L2" pintype="input"/>
     </net>
     <net code="8" name="Net-(P1-Pad1)">
       <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
@@ -541,17 +556,17 @@
       <node ref="SV3" pin="4" pinfunction="K" pintype="passive"/>
     </net>
     <net code="9" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="SV7" pin="1" pinfunction="P$1" pintype="passive"/>
       <node ref="SV7" pin="2" pinfunction="P$1" pintype="passive"/>
-      <node ref="X5" pin="5" pinfunction="PG" pintype="input"/>
+      <node ref="X5" pin="5" pinfunction="PG" pintype="output"/>
     </net>
     <net code="10" name="Net-(R4-Pad1)">
-      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
       <node ref="SV4" pin="2" pinfunction="P$1" pintype="passive"/>
     </net>
     <net code="11" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="SV4" pin="4" pinfunction="P$1" pintype="passive"/>
     </net>
     <net code="12" name="Net-(SV1-Pad1)">
