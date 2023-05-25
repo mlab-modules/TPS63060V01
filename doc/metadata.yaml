@@ -1,0 +1,17 @@
+description: null
+github_branch: TPS63060V01A
+github_branches:
+- TPS63060V01A
+- TPS63060V01B
+github_repo: TPS63060V01
+github_url: https://github.com/mlab-modules/TPS63060V01
+homepage: false
+image: doc/img/TPS63060V01A_top_big.jpg
+images:
+- doc/img/TPS63060V01A_top_big.jpg
+- doc/img/TPS63060V01A_top_small.jpg
+- doc/img/TPS63060V01A_QRcode.png
+issues: 2
+mark: 50
+tags: []
+title: TPS63060V01
