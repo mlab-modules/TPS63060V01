@@ -13,5 +13,7 @@ images:
 - doc/img/TPS63060V01A_QRcode.png
 issues: 2
 mark: 50
-tags: []
+tags:
+- mlab
+- mlab-module
 title: TPS63060V01
