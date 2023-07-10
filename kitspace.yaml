@@ -5,4 +5,7 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/TPS63060V01
-summary: null
+summary: The MLAB TPS63060V01A module is a versatile voltage converter based on the
+  TPS63060 IC from Texas Instruments. It offers selectable output voltages (3.3V or
+  5V), flexible activation, power-saving mode, and can be synchronized with an external
+  clock.

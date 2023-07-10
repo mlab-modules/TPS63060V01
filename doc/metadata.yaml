@@ -1,4 +1,7 @@
-description: null
+description: The MLAB TPS63060V01A module is a versatile voltage converter based on
+  the TPS63060 IC from Texas Instruments. It offers selectable output voltages (3.3V
+  or 5V), flexible activation, power-saving mode, and can be synchronized with an
+  external clock.
 github_branch: TPS63060V01A
 github_branches:
 - TPS63060V01A
@@ -16,4 +19,16 @@ mark: 50
 tags:
 - mlab
 - mlab-module
+- buck-boost
+- buck-boost-converter
+- high-effeciency
+- step-down
+- step-up
+- texas-instruments
+- mlab-power-supply
+- tps63060
+- dcdc
+- dcdc-boost-converter
+- dcdc-converter
 title: TPS63060V01
+updated: '2023-07-10T01:56:28.070934+00:00'
