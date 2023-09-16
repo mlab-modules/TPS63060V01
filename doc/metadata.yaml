@@ -16,7 +16,7 @@ images:
 - doc/img/TPS63060V01A_QRcode.png
 issues: 2
 mark: 50
-status: 0
+status: 2
 tags:
 - mlab
 - mlab-module
