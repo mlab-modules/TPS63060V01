@@ -9,7 +9,7 @@ github_branches:
 github_repo: TPS63060V01
 github_url: https://github.com/mlab-modules/TPS63060V01
 homepage: false
-image: doc/img/TPS63060V01A_top_big.jpg
+image_title: doc/img/TPS63060V01A_top_big.jpg
 images:
 - doc/img/TPS63060V01A_top_small.jpg
 - doc/img/TPS63060V01A_top_big.jpg
